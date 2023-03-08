@@ -15,4 +15,6 @@ jobs: # gather all the jobs that run in the workflow
               echo 'Viewing the file: '
               cat requirements.txt
       - name: Python Security Check
+        env:
+          DEP_PATH: requirements.txt
         uses: aufdenpunkt/python-safety-check-action@main
