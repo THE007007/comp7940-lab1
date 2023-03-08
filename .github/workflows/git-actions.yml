@@ -16,4 +16,4 @@ jobs: # gather all the jobs that run in the workflow
               cat requirements.txt
 
       - name: Python Security Check
-        run: aufdenpunkt/python-safety-check-action
+        run: aufdenpunkt/python-safety-check
