@@ -17,6 +17,6 @@ jobs: # gather all the jobs that run in the workflow
   safety-check-job:
     runs-on: ubuntu-latest # Set the type of machine to run on
     steps:    
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Python Security Check
         run: aufdenpunkt/python-safety-check
