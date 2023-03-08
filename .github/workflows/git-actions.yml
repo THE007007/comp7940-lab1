@@ -15,4 +15,4 @@ jobs: # gather all the jobs that run in the workflow
               echo 'Viewing the file: '
               cat requirements.txt
       - name: Python Security Check
-        uses: aufdenpunkt/python-safety-check/checkout@v2
+        uses: aufdenpunkt/python-safety-check-action@main
